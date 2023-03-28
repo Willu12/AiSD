@@ -1,3 +1,11 @@
+/*
+Dane jest drzewo RST, w którego węzłach znajduje się klucz 8-bitowy oraz licznik (counter).
+
+- wstawianie liczby 8-bitowej (uaktualniania licznika, jeśli element już istnieje) do tego drzewa
+- wypisywania par (key,counter) elementów znajdujących się na ostatnim istniejącym
+poziomie drzewa
+*/
+
 #include <iostream>
 
 
