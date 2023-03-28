@@ -6,6 +6,14 @@ struct node
 };
 node *head;
 
+/*
+Dany jest kopiec Fibonacciego. „Standardowa” struktura kopca jest poszerzona o wskazanie na
+rodzica.
+Napisz funkcję, która dla danego węzła, odłączy go (wraz z wszystkimi poddrzewami) od kopca.
+Funkcja ma zwrócić informację, czy rodzic odłączonego
+węzła jest „poprawny” (z punktu widzenia kopców Fibonacciego).
+ */
+
 
 bool ExtractFromParent(node* n)
 {
@@ -21,9 +29,7 @@ bool ExtractFromParent(node* n)
         node * p = c->next;
         p->prev = c->prev;
         c->next = nullptr;
-        par->child = p;
-        
-       
+        par->child = p;  
     }
 
     while(c && c!=n)
