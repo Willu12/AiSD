@@ -3,7 +3,7 @@ int sArr[64];
 void Merge(int a, int b,int * Sarr)
 {
     // scal dwa zwroc 1
-    // wstwaia do sArr na adres a scalony gownik
+    // wstwaia do sArr na adres a scalony lancuch
     // Sarr[b] = -1;
     //zwraca indeks poczatku tej tablicty
 } 
