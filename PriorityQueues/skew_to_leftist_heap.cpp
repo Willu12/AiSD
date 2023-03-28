@@ -1,3 +1,5 @@
+
+
 #include <iostream>
 
 struct node
@@ -19,6 +21,7 @@ void setNPL(node * root)
     root->npl = std::min(root->left->npl,root->right->npl) + 1;
 }
 
+// szukanie elementu o najwiekszym npl
 void SearchWholeTree(node * root)
 {
     if(!root) return;
@@ -93,7 +96,4 @@ void Convert(node * p)
     }
 
     //na koniec uaktulanienie
-
-
-
 }
