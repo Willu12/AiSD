@@ -1,3 +1,10 @@
+/*Dany jest wygenerowany fragment drzewa gry. W węzłach takiego drzewa zapisane są stany gry oraz
+maksymalnie 3 możliwe przejścia (ruchy) do kolejnych stanów. Dana jest również funkcja
+IsSuccess(State s), zwracająca prawdę, jeśli dany stan jest końcem gry (wygraną).
+Napisz funkcję, która wypisze (w postaci listy kolejnych stanów) wszystkie ścieżki prowadzące od stanu
+początkowego (korzenia) do wygranej.
+*/
+
 struct state
 {
     state* next[3];
