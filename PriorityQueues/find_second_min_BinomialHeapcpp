@@ -35,11 +35,5 @@ node* FindSecondMax(node * root)
     return p;
 
     // musimy porownac wszystkie elemty na poziomie roota ktoruych jest n - liczba drzew
-    // oraz wszystkie elementy bezposrednio na poziomie max->child ktorych moze byc bardzo duzooo :)
-}
-
-
-node * FindSecondMin(node * root)
-{
-    
+    // oraz wszystkie elementy bezposrednio na poziomie max->child ktorych moze byc bardzo duzo
 }
