@@ -12,6 +12,10 @@ struct node
     int k;
 } *root;
 
+/*
+Napisz funkcję CheckBeforeDelete(v) która zwróci informację (true/false), czy usunięcie elementu
+v będzie wymagało operacji równoważenia lub łączenia stron.
+*/
 
 node* search(node * root, int v)
 {
