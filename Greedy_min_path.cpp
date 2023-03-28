@@ -4,7 +4,7 @@ sumie wartości elementów w węzłach. Funkcja ma utworzyć „globalną” lis
 kolejne elementy tej ścieżki (zaczynając od korzenia, a kończąc na liściu). Czy napisany
 algorytm znajduje poprawnie taką ścieżkę? Uzasadnij.
 Zaproponuj odpowiednie struktury danych. Nie jest znana maksymalna liczba poddrzew.
-ISI: nie można używać wbudowanych/bibliotecznych tablic/list dynamicznych*/
+*/
 
 struct node
 {
@@ -60,4 +60,4 @@ void CreateGreedyList(node * root)
     }
 }
 
-// ten algorytm nie znajdue poprawnie sciezki o najmniejszej sumie lementow
+// ten algorytm nie znajdue poprawnie sciezki o najmniejszej sumie elementow
