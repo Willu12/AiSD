@@ -1,3 +1,11 @@
+/*
+Dane jest kopiec fibonnacciego w którym  usunięto dla korzenia
+kilka poddrzew (ale nie uaktualniono atrybuty mark – liczba usuniętych poddrzew)
+uaktualnij atrybut mark w korzeniu oraz zwróc jednokierunkową
+listę wysokości brakujących poddrzew.
+dla mark == 2 jak mozna prosto to popraw kopiec
+*/
+
 struct node
 {
     node* next, *prev, *child;
