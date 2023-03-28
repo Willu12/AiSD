@@ -8,7 +8,7 @@ struct node
 void QuickSortS(node*& head,node*& tail)
 {
     int v = head->val;
-    //1. tworzymy wymageane gowno
+    //1. tworzenie wskaźników
     node * headM = nullptr;
     node * tailM = nullptr;
     node * headR = nullptr;
@@ -40,7 +40,7 @@ void QuickSortS(node*& head,node*& tail)
             tailW->next = p;
             tailW = p;
         }
-        // mamy podzielone teraz QUicksort na podziobrack
+        // mamy podzielone teraz QUicksort na podzbiorach
         QuickSortS(headW,tailW);
         QuickSortS(headM,tailM);
         head  = headR;
